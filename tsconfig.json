@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2020", // Updated for modern features
+    "lib": ["es2020", "dom"], // Add modern libraries
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["./src/*"]
+    },
+    "incremental": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "moduleResolution": "node", // Ensure Node.js module resolution
+    "skipLibCheck": true // Skip type checking for node_modules
+  }
+}
