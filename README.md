@@ -16,11 +16,11 @@ Below is the ERD and Wireframe for the smartphone inventory system:
 
 ![Wireframe](./diagram/inventory_wireframe.jpg)
 
-### Explanation of the ERD:
+### Database Design Explanation :
 
 1. **Manufacturer**:
 
-   - Represents the manufacturer of the smartphone (e.g., Apple, Samsung).
+   - Represents the smartphone manufacturer (e.g., Apple, Samsung).
    - Has a one-to-many relationship with `Model`.
 
 2. **Model**:
