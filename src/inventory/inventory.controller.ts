@@ -8,7 +8,6 @@ export class InventoryController {
 
   @Post('register')
   async registerInventory(@Body() createInventoryDto: CreateInventoryDto) {
-    console.log('Registering inventory:', createInventoryDto);
     return this.inventoryService.create(createInventoryDto);
   }
 }
