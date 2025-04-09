@@ -7,6 +7,12 @@
 This project aims to build an inventory registration system for a SIM-free used-smartphone shop.
 
 ---
+## Detail Design
+See the [Detail Design Document](./diagram/detail-design-level.md) for implementation.
+
+
+
+---
 
 ## Entity Relationship Diagram (ERD)
 
