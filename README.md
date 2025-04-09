@@ -64,10 +64,7 @@ $ npm install
 
 ```
 
-## Seeding the Database for testing
-
-- To simplify testing with mock data, this project uses mongodb-memory-server, which provides an in-memory MongoDB instance.
-- To seed the in-memory database for testing, use the following command:
+## Running the app
 
 ```bash
 $npm run dev:seed
